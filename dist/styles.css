@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.links li{
+    list-style: none;
+
+}
+.links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.social-media img{
+    width: 2.3rem;
+
+}
