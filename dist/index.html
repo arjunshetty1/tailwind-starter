@@ -10,10 +10,15 @@
 </head>
 <body>
 
-    <!--<div class="background w-2/5">
-    <img src="bg-tablet-pattern.svg" alt="" class="absolute -z-50 left-20 top-0 w-10/12 ">-->
-    <nav class="flex gap-48 my-7 w-full md:w-full md:gap-80 md:px-12">
-<img src="logo.svg" alt="logo" class="w-17 relative left-4">
+    <div class="background w-full overflow-hidden">
+    <img src="bg-tablet-pattern.svg" alt="" class="absolute -z-40 left-3/4  top-0 w-1/3 ">
+    </div>
+
+
+
+
+    <nav class="flex gap-48 my-7 w-full md:w-full md:pl-24 md:gap-36 ">
+<img src="logo.svg" alt="logo" class="w-17 relative left-4 md:h-7 ">
 <img src="icon-hamburger.svg" alt="menu-icon" class="w-7 flex justify-end md:hidden ">
 <ul class="hidden md:flex md:gap-12 md:whitespace-nowrap ">
     <li><a href="#">Pricing</a></li>
@@ -23,61 +28,73 @@
     <li><a href="#">Community</a></li>
 </ul>
 
-<button class=" hidden md:bg-orange-500 md:py-3 md:px-1 md:w-24 md:flex md:justify-center md:mx-auto md:mt-3 md:text-white md:rounded-full md:text-xs md:drop-shadow-lg">Get Started</button>
+<button class=" hidden md:bg-orange-500 md:py-3 md:px-1 md:w-24 md:flex md:justify-center md:mt-3 md:text-white md:rounded-full md:text-xs md:drop-shadow-lg md:relative md:bottom-3">Get Started</button>
     </nav>
 
-    <header class="w-full">
-    <img src="illustration-intro.svg" alt="illustration" class="w-10/12 flex align-middle justify-center mx-auto mt-12">
+
+
+
+    <header class="w-full md:flex md:mt-24 flex-row-reverse md:pl-14 md:pr-14">
+        <div class="right-col md:w-5/12 md:relative md:bottom-16">
+    <img src="illustration-intro.svg" alt="illustration" class="w-10/12 flex align-middle justify-center mx-auto mt-12 md:relative md:bottom-9 md:w-full">
     <!--</div>-->
-
-
+</div>
+    <div class="left-col md:w-3/5 ">
     <div class="w-full container flex flex-col gap-4 mt-5">
-        <h1 class="text-4xl font-semibold text-center">Bring everyone together to build better products</h1>
-        <p class="text-center text-slate-500">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+        <h1 class="text-4xl md:text-5xl font-semibold text-center md:text-left md:w-3/4">Bring everyone together to build better products</h1>
+        <p class="text-center md:text-xl text-slate-500 md:w-9/12 md:text-left">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
         
-        <button class="bg-orange-500 py-3 px-1 w-24 flex justify-center mx-auto mt-3 text-white rounded-full text-xs drop-shadow-lg">Get Started</button>
+        <button class="hidden md:block bg-orange-500 py-3 px-1 w-24 flex justify-center mt-3 text-white rounded-full text-xs drop-shadow-lg">Get Started</button>
+        <button class="md:hidden bg-orange-500 py-3 px-1 w-24 flex justify-center mx-auto mt-3 text-white rounded-full text-xs drop-shadow-lg">Get Started</button>
         
     </div>
 
-    <div class="w-full container flex flex-col gap-4 mt-16">
-        <h1 class="text-3xl font-semibold text-center">What's different about Manage?</h1>
-        <p class="text-center text-slate-500">Manage Provides all the functionlity your team needs. without the complexity. Our softtware is tailor-made for modern digital product teams.</p>
+    <div class="w-full container flex flex-col gap-4 mt-16 md:relative md:top-16">
+        <h1 class="text-3xl font-semibold text-center md:w-9/12 md:text-left md:text-4xl">What's different about Manage?</h1>
+        <p class="text-center text-slate-500 md:w-9/12 md:text-left md:text-xl">Manage Provides all the functionlity your team needs. without the complexity. Our softtware is tailor-made for modern digital product teams.</p>
         
     </div>
+</div>
 
     </header>
 
-    <div class="features ml-5 mt-14 flex flex-col gap-10">
+    
+    <div class=" features  ml-5 mt-14 flex flex-col gap-10 md:align-bottom md:w-2/4 md:relative md:pl-14 md:pr-14 md:bottom-40 md:left-1/2">
         <div>
-<div class="heading flex gap-2 pl-2">
+<div class="heading flex gap-2 pl-2 w-2/4">
         <h2 class="bg-orange-400 px-3 text-2xl font-medium py-1 whitespace-nowrap rounded-lg">01</h2>
-        <h2 class="text-xl font-medium bg-orange-100 w-full whitespace-nowrap text-center py-1 pl-2 rounded-ss-xl"> Track company-wide progress</h2>
+        <h2 class=" md:p-0 text-xl font-medium bg-orange-100 md:bg-inherit md:w-2/5 md:text-left w-full whitespace-nowrap text-center py-1 pl-2 rounded-ss-xl"> Track company-wide progress</h2>
     </div>
-        <p class="text-left text-slate-500 mt-3">See how your day-to-day tasks fit into the wider vison. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+        <p class=" md:p-0 text-left text-slate-500 mt-3 md:w-3/4 md:relative md:left-20">See how your day-to-day tasks fit into the wider vison. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
     </div>
 
 
     <div>
         <div class="heading flex gap-2 pl-2">
             <h2 class="bg-orange-400 px-3 text-2xl font-medium py-1 whitespace-nowrap rounded-lg">02</h2>
-            <h2 class="text-xl font-medium bg-orange-100 w-full whitespace-nowrap text-center py-1  rounded-ss-xl">Advance buildt-in reports</h2>
+            <h2 class=" md:p-0 md:bg-inherit md:w-2/5 md:text-left text-xl font-medium bg-orange-100 w-full whitespace-nowrap text-center py-1  rounded-ss-xl">Advance buildt-in reports</h2>
         </div>
-            <p class="text-left text-slate-500 mt-3">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the report you need to keep key stakeholders informed.</p>
+            <p class=" md:p-0 md:w-3/4 md:relative md:left-20 text-left text-slate-500 mt-3">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the report you need to keep key stakeholders informed.</p>
         </div>
 
         <div>
             <div class="heading flex gap-2 pl-2">
                 <h2 class="bg-orange-400 px-3 text-2xl font-medium py-1 whitespace-nowrap rounded-lg">03</h2>
-                <h2 class="text-xl font-medium bg-orange-100 w-full  text-center py-1 pr-1 rounded-ss-xl"> Everything you need in one place</h2>
+                <h2 class=" md:p-0 whitespace-nowrap md:bg-inherit md:w-2/5 md:text-left text-xl font-medium bg-orange-100 w-full  text-center py-1 pr-1 rounded-ss-xl"> Everything you need in one place</h2>
             </div>
-                <p class="text-left text-slate-500 mt-3">Stop jumping from one service to another to communicate, store, files, track tasks and share communicate. Manage offers an all-in-one team productivity solution.</p>
+                <p class=" md:p-0 md:w-3/4 md:relative md:left-20 text-left text-slate-500 mt-3">Stop jumping from one service to another to communicate, store, files, track tasks and share communicate. Manage offers an all-in-one team productivity solution.</p>
             </div>    
-</div>
-
-    <div class="testinomical my-12 px-7">
+    </div>
+    <div class="background w-full overflow-hidden">
+        <img src="bg-tablet-pattern.svg" alt="" class=" ref absolute -z-40 w-2/4 ">
+        </div>
+ 
+    <div class="testinomical my-12 px-7 md:relative md:bottom-20">
        
-        <h1 class="text-3xl font-semibold text-center">What they've said</h1>
-
+        <h1 class="text-3xl font-semibold text-center md:mb-12">What they've said</h1>
+       
+        
+        <div class="hidden desktop-view md:flex md:gap-12 md:pl-14 md:pr-14 md:w-full">
         <div class="card w-full px-8 bg-gray-100 mt-12 rounded-md">
             <img src="avatar-ali.png" alt="ali" class="w-14 mx-auto relative bottom-6">
             <h1 class="text-xl font-semibold text-center">Ali Bravo</h1>
@@ -85,26 +102,42 @@
             <p class="text-center text-slate-500 mt-3 pb-8">"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and evryone is much more focused"</p>
 
         </div>
+        <div class="card w-full px-8 bg-gray-100 mt-12 rounded-md">
+            <img src="avatar-anisha.png" alt="ali" class="w-14 mx-auto relative bottom-6">
+            <h1 class="text-xl font-semibold text-center">Anisha Li</h1>
+
+            <p class="text-center text-slate-500 mt-3 pb-8">"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."</p>
+
+        </div>
+        <div class="card w-full px-8 bg-gray-100 mt-12 rounded-md">
+            <img src="avatar-richard.png" alt="ali" class="w-14 mx-auto relative bottom-6">
+            <h1 class="text-xl font-semibold text-center">Richard Watts</h1>
+
+            <p class="text-center text-slate-500 mt-3 pb-8">"Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!"</p>
+
+        </div>
+    </div>
         
         <button class="bg-orange-500 py-3 px-1 w-24 flex justify-center mx-auto mt-8 text-white rounded-full text-xs drop-shadow-lg">Get Started</button>
 
     </div>
 
-    <div class="cta bg-orange-500 w-full py-16">
+    <div class="cta bg-orange-500 w-full py-16 md:flex">
 
 
  <h1 class="text-4xl font-semibold text-center text-white px-16">Simplify how your team works today.</h1>
 
- <button class="bg-white py-3 px-1 w-24 flex justify-center mx-auto mt-8 text-black font-bold rounded-full text-xs drop-shadow-lg">Get Started</button>
+ <button class="bg-white py-3 px-1 w-24 flex justify-center mx-auto mt-8 text-black font-bold rounded-full text-xs drop-shadow-lg md:my-auto">Get Started</button>
 
     </div>
 
-    <footer class="w-full bg-gray-800 py-10">
+    <footer class="w-full bg-gray-800 py-10 md:flex md:flex-row-reverse">
         <div class="input flex mx-auto gap-4 py-3 ml-4">
    <input type="text" placeholder="Updtaes in your inbox..." class="flex justify-center w-4/6 h-12 pl-4 pr-4 rounded-3xl"><button class="w-1/5 h-12 pl-4 pr-4 rounded-3xl bg-orange-500 font-medium text-white">GO</button>
+   
 </div>
 
-<div class="links py-2">
+<div class="links py-2 md:relative md:right-28">
 
 <ul class="flex gap-28 mx-auto justify-center flex-wrap">
 
@@ -122,14 +155,14 @@
 </ul>
 </div>
 
-<div class="social-media flex gap-7 justify-center py-10">
-    <img src="icon-facebook.svg" alt="">
-    <img src="icon-youtube.svg" alt="">
-    <img src="icon-twitter.svg" alt="">
-    <img src="icon-pinterest.svg" alt="">
-    <img src="icon-instagram.svg" alt="">
+<div class="social-media flex gap-7 justify-center py-10 md:relative md:right-1/4 md:top-10 md:bottom-0">
+    <img class="w-9 md:w-6 md:h-6" src="icon-facebook.svg" alt="">
+    <img class="w-9 md:w-6 md:h-6" src="icon-youtube.svg" alt="">
+    <img class="w-9 md:w-6 md:h-6" src="icon-twitter.svg" alt="">
+    <img class="w-9 md:w-6 md:h-6" src="icon-pinterest.svg" alt="">
+    <img class="w-9 md:w-6 md:h-6" src="icon-instagram.svg" alt="">
 </div>
-<img src="logo.svg" alt="logo" class="mx-auto w-36">
+<img src="logo.svg" alt="logo" class="mx-auto w-36 md:w-auto md:h-7 md:relative md:right-11">
     </footer>
 </body>
 </html> 

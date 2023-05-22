@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 .container{
@@ -12,6 +13,7 @@
 
 }
 
+
 .links li{
     list-style: none;
 
@@ -22,8 +24,15 @@
     color: white;
 }
 
+body{
+    overflow-x: hidden;
+}
 
-.social-media img{
-    width: 2.3rem;
+.ref{
+    top: 55rem;
+    right: 60%;
+}
 
+nav{
+    overflow-x: hidden;
 }
